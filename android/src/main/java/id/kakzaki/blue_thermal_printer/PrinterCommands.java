@@ -28,7 +28,7 @@ public class PrinterCommands {
     public static byte[] SEND_NULL_BYTE = {0x00};
 
     public static byte[] SELECT_PRINT_SHEET = {0x1B, 0x63, 0x30, 0x02};
-    public static byte[] FEED_PAPER_AND_CUT = {0x1D, 0x56, 66, 0x00};
+    public static byte[] FEED_PAPER_AND_CUT = {0x1D, 0x88, 66, 0x00};
 
     public static byte[] SELECT_CYRILLIC_CHARACTER_CODE_TABLE = {0x1B, 0x74, 0x11};
 
